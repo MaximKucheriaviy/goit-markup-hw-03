@@ -12,7 +12,8 @@ h2,
 h3 {
   margin: 0;
 }
-ul {
+ul,
+li {
   padding: 0px;
   margin: 0px;
 }
@@ -28,21 +29,19 @@ body ul {
   list-style-type: none;
 }
 .container {
-  width: 1230;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0px auto;
 }
 
 /* стили хеддера */
 .header {
+  outline: 2px solid green;
+}
+.hedder-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
-
-  /* outline: 2px solid green; */
 }
 .navigation {
   display: flex;
@@ -63,8 +62,6 @@ body ul {
 }
 .navigation-links {
   display: flex;
-  margin: 0px;
-  padding: 0px;
 }
 .navigation-links .item + .item {
   margin-left: 50px;
@@ -81,6 +78,7 @@ body ul {
   display: flex;
   margin: 0px;
   padding: 0px;
+  margin-left: auto;
 }
 .header-contacts .item + .item {
   margin-left: 50px;
