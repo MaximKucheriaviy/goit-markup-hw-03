@@ -12,7 +12,8 @@
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 ul,
@@ -32,7 +33,7 @@ body ul {
   list-style-type: none;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0px auto;
@@ -54,6 +55,7 @@ body ul {
 }
 .logo {
   margin-right: 93px;
+  min-width: 145px;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -128,6 +130,7 @@ body ul {
   border: 1px solid transparent;
   padding: 10px 23px;
   border-radius: 4px;
+  min-width: 200px;
 
   font-family: inherit;
   color: var(--font-white);
@@ -136,7 +139,23 @@ body ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.peculiarities-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.peculiarities-list {
+  display: flex;
+}
+.peculiarities-list .item {
+  /* outline: 2px solid green; */
+  width: 270px;
+}
+.peculiarities-list .item + .item {
+  margin-left: 30px;
+}
 .peculiarities-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
