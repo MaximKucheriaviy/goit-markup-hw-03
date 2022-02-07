@@ -28,6 +28,13 @@ body ul {
 .logo > span {
   color: var(--font-blue);
 }
+.navigation-links {
+  display: flex;
+  margin: 0px;
+}
+.navigation-links .item + .item {
+  margin-left: 50px;
+}
 .navigation-links a {
   font-weight: 500;
   font-size: 14px;
@@ -36,8 +43,17 @@ body ul {
   text-decoration: none;
   color: var(--font-black1);
 }
-
-.header-contacts a {
+.header-contacts {
+  margin: 0px;
+  display: flex;
+}
+.header-contacts .item + .item {
+  margin-left: 50px;
+}
+.header-contacts .item {
+  outline: 2px solid green;
+}
+. .header-contacts a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
