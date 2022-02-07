@@ -7,6 +7,9 @@
   --background-black: #2f303a;
   --background-gray: #f5f4fa;
 }
+* {
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3 {
@@ -42,6 +45,8 @@ body ul {
 .hedder-container {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigation {
   display: flex;
