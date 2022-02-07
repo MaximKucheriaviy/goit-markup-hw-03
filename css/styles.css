@@ -1,0 +1,162 @@
+:root {
+  --font-white: #ffffff;
+  --font-blue: #2196f3;
+  --font-black2: #000000;
+  --font-black1: #212121;
+  --font-gray: #757575;
+  --background-black: #2f303a;
+  --background-gray: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--font-black1);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+body ul {
+  list-style-type: none;
+}
+/* стили хеддера */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--black2-color);
+}
+.logo > span {
+  color: var(--font-blue);
+}
+.navigation-links a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--font-black1);
+}
+
+.header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-gray);
+  text-decoration: none;
+}
+/*стили index main*/
+.title {
+  background-color: var(--background-black);
+}
+.title h1 {
+  color: var(--font-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.title button {
+  background: var(--font-blue);
+
+  font-family: inherit;
+  color: var(--font-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.peculiarities-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--font-gray);
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-section {
+  background: var(--background-gray);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--font-gray);
+}
+/* стили футера */
+.footer {
+  background-color: var(--background-black);
+}
+.footer .logo {
+  color: var(--font-white);
+}
+.address-text {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--font-white);
+}
+.address .link {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--font-blue);
+}
+
+/* стили portfolio main */
+.button {
+  background-color: var(--background-gray);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--font-blue);
+  color: var(--font-white);
+}
+.products a {
+  text-decoration: none;
+}
+.products-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--font-black1);
+}
+.products-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--font-gray);
+}
