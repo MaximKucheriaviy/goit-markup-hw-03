@@ -10,31 +10,33 @@
     <title>Портфолио</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- Логотип -->
-            <a class = "logo" href=""><span>Web</span>Studio</a>
-            <ul class = "navigation-links">
-                <li>
-                    <a class = "link" href="./index.html">Студия</a>
+    <header class="header">
+        <div class="container hedder-container">
+            <nav class="navigation">
+                <!-- Логотип -->
+                <a class="logo" href=""><span>Web</span>Studio</a>
+                <ul class="navigation-links">
+                    <li class="item">
+                        <a class="link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- контакты -->
+            <ul class="header-contacts">
+                <li class="item">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class = "link" href="">Портфолио</a>
-                </li>
-                <li>
-                    <a class = "link" href="">Контакты</a>
+                <li class="item">
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-        <!-- контакты -->
-        <ul class = "header-contacts">
-            <li>
-                <a class = "link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class = "link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
         <!-- работы -->
@@ -124,22 +126,24 @@
             </ul>
         </section>
     </main>
-    <footer class = "footer">
+    <footer class="footer ">
         <!-- Логотип -->
-        <a class = "logo" href=""><span>Web</span>Studio</a>
-        <address class = "address">
-            <ul>
-                <li>
-                    <p class = "address-text">г. Киев, пр-т Леси Украинки, 26</p>
-                </li>
-                <li>
-                    <a class = "link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class = "link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="logo" href=""><span>Web</span>Studio</a>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="item">
+                        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
