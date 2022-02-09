@@ -106,6 +106,7 @@ body ul {
   background-color: var(--background-black);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 .title h1 {
   margin-top: 0px;
@@ -123,9 +124,7 @@ body ul {
   text-transform: uppercase;
 }
 .title button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* display: inline-block; */
   background-color: var(--font-blue);
   border: 1px solid transparent;
   padding: 10px 23px;
@@ -162,24 +161,45 @@ body ul {
   text-transform: uppercase;
 }
 .peculiarities-text {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--font-gray);
 }
+.works-section {
+  padding-bottom: 94px;
+}
 .works-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
+.works-list {
+  display: flex;
+}
+
+.works-list .item + .item {
+  margin-left: 30px;
+}
 .team-section {
+  padding-top: 94px;
+
   background: var(--background-gray);
 }
 .team-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.team-list {
+  display: flex;
+}
+.team-list .item + .item {
+  margin-left: 30px;
 }
 .card-title {
   font-weight: 500;
