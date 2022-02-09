@@ -78,6 +78,10 @@ body ul {
   margin-left: 50px;
 }
 .navigation-links a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -98,6 +102,10 @@ body ul {
   outline: 2px solid green;
 } */
 .header-contacts a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
