@@ -38,6 +38,10 @@ body ul {
   padding-right: 15px;
   margin: 0px auto;
 }
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 /* стили хеддера */
 .header {
@@ -109,7 +113,6 @@ body ul {
   text-align: center;
 }
 .title h1 {
-  margin-top: 0px;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -138,10 +141,6 @@ body ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-.peculiarities-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .peculiarities-list {
   display: flex;
 }
@@ -165,7 +164,7 @@ body ul {
   color: var(--font-gray);
 }
 .works-section {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .works-title {
   margin-bottom: 50px;
@@ -183,8 +182,6 @@ body ul {
   margin-left: 30px;
 }
 .team-section {
-  padding-top: 94px;
-
   background: var(--background-gray);
 }
 .team-title {
@@ -198,10 +195,18 @@ body ul {
 .team-list {
   display: flex;
 }
+.team-list .item {
+  padding-bottom: 30px;
+
+  background-color: #fff;
+}
 .team-list .item + .item {
   margin-left: 30px;
 }
 .card-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -215,16 +220,24 @@ body ul {
 }
 /* стили футера */
 .footer {
+  padding-top: 80px;
+  padding-bottom: 50px;
+
   background-color: var(--background-black);
 }
 .footer .logo {
   color: var(--font-white);
 }
 .address-text {
-  font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   color: var(--font-white);
+}
+.address-list {
+  margin-top: 20px;
+}
+.address-list .item + .item {
+  margin-top: 9px;
 }
 .address .link {
   font-size: 14px;
