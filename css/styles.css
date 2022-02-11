@@ -115,9 +115,6 @@ body ul {
   margin-left: 50px;
 }
 
-/* .header-contacts .item {
-  outline: 2px solid green;
-} */
 .header-contacts a {
   display: inline-block;
   padding-top: 10px;
@@ -308,9 +305,11 @@ body ul {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .buttons-list .item + .item {
   margin-left: 8px;
 }
+
 .button {
   padding: 6px 22px;
 
@@ -329,6 +328,17 @@ body ul {
 .button:focus {
   background-color: var(--font-blue);
   color: var(--font-white);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products .item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.products .item:not(:nth-child(n + 7)) {
+  margin-bottom: 30px;
 }
 
 .products a {
