@@ -32,6 +32,7 @@ body {
   color: var(--font-black1);
   letter-spacing: 0.03em;
   font-size: 14px;
+  background-color: var(--font-white);
 }
 
 .visually-hidden {
@@ -178,6 +179,10 @@ body ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.title button:hover,
+.title button:focus {
+  background-color: #188ce8;
 }
 
 .peculiarities-list {
